@@ -19,5 +19,5 @@ int main(){
     fun(A,5);
     int *B;
     B = fun2(5);
-    printf("%d", B[0]); /*--> 2*/
+    printf("%d", B[0]); /*-> 2*/
     return 0;}

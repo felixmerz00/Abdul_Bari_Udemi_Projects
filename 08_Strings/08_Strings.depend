@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1642762597 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\08_strings\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1642689714 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\08_strings\136_revesing_a_string.c
+
+1642762614 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\08_strings\141_permutation_of_string.c
+	<stdio.h>
+	<stdlib.h>
+
+1642760969 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\08_strings\swap.c
+	<stdio.h>
+	<stdlib.h>
+

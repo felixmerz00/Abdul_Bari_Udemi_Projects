@@ -1,5 +1,23 @@
 # depslib dependency file v1.0
-1643141806 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\main.c
+1643308331 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\main.c
 	<stdio.h>
 	<stdlib.h>
+
+1643226975 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\177_recursive_display.c
+	<stdio.h>
+	<stdlib.h>
+
+1643227697 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\180_count_and_sum.c
+	<stdio.h>
+	<stdlib.h>
+
+1643228155 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\182_get_max.c
+	<stdio.h>
+	<stdlib.h>
+
+1643300696 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\185_search.c
+	<stdio.h>
+	<stdlib.h>
+
+1643308598 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\187_insert.c
 

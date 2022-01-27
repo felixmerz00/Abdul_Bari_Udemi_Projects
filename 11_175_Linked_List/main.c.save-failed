@@ -5,7 +5,7 @@ struct Node
 {
     int data;
     struct Node *next;
-} *head;
+};
 
 struct Node * create_linear_linked_list(int *A, int n);
 void display_linear_linked_list(struct Node *p);
@@ -20,6 +20,7 @@ void insert(int pos, struct Node *p, int x);
 int main()
 {
     int A[5] = {10, 20, 30, 40, 50};
+    struct Node *head;
     head = create_linear_linked_list(A, 5);
 
     display_linear_linked_list(head);printf("\n");
@@ -30,8 +31,9 @@ int main()
     printf("Min: %d\n", get_min(head));
     search(head, 30);
     search(head, 31);
-    insert(6, head, 60);
-    insert(1, head, 9);
+    insert(4, head, 31);
+    insert(1, head, 21);    /*funktioniert nicht*/
+    insert(7, head, 701);
     display_linear_linked_list(head);
 
     return 0;

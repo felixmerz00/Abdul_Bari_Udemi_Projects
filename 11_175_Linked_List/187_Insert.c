@@ -19,7 +19,7 @@ void insert(int pos, struct Node *p, int x)
     /*if the new node is the new head of the linked list*/
     if(pos == 1){
         t->next = p;
-        head = t; /*head aus main methode müsste erreicht und bearbeitet werden*/
+        head = t;
     }
     else{
         for(int i = 1; i < pos-1; i++){

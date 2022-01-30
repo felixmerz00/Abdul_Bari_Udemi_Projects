@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1643308331 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\main.c
+1643540912 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\main.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -19,5 +19,23 @@
 	<stdio.h>
 	<stdlib.h>
 
-1643308598 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\187_insert.c
+1643309072 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\187_insert.c
+	<stdio.h>
+	<stdlib.h>
+
+1643313804 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\193_delete.c
+	<stdio.h>
+	<stdlib.h>
+
+1643474904 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\201_reverse_linked_list.c
+	<stdio.h>
+	<stdlib.h>
+
+1643489643 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\merge_concatenate.c
+	<stdio.h>
+	<stdlib.h>
+
+1643540875 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\11_175_linked_list\206_check_loop.c
+	<stdio.h>
+	<stdlib.h>
 

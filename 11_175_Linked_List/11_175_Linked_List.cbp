@@ -46,6 +46,18 @@
 		<Unit filename="187_Insert.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="193_Delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="201_Reverse_Linked_List.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="206_Check_Loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Merge_Concatenate.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

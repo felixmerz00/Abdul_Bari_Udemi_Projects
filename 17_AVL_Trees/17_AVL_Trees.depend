@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1643729870 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\17_avl_trees\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1643730237 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\17_avl_trees\display.c
+	<stdio.h>
+	<stdlib.h>
+
+1643727318 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\17_avl_trees\rotations.c
+	<stdio.h>
+	<stdlib.h>
+
+1643729512 source:c:\users\felix\onedrive - universität zürich uzh\privat\informatik_2_vorbereitung\abdul_bari_udemi_projects\17_avl_trees\queue.c
+	<stdio.h>
+	<stdlib.h>
+

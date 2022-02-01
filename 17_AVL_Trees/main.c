@@ -16,17 +16,18 @@ void display_postorder(struct Node *root);
 void display_by_level(struct Node *root);
 int get_height(struct Node *node);
 int get_balance_factor(struct Node *root_subtree);
+struct Node* ll_rotation(struct Node *root_subtree);
+struct Node* lr_rotation(struct Node *root_subtree);
 struct Node* rr_rotation(struct Node *root_subtree);
+struct Node* rl_rotation(struct Node *root_subtree);
 
 int main()
 {
     struct Node *root;
     root = NULL;
-    root = Rinsert(root, 20);
-    root = Rinsert(root, 30);
     root = Rinsert(root, 40);
-    root = Rinsert(root, 50);
     root = Rinsert(root, 60);
+    root = Rinsert(root, 50);
 
     display_inorder(root);
     printf("\n");
@@ -37,7 +38,7 @@ int main()
 }
 
 /*takes root node of a subtree where a node with data should be added
-returns the root node of the subtree*/
+returns the root node of the balanced subtree*/
 struct Node * Rinsert(struct Node *root, int data)
 {
     struct Node *p = root;
@@ -58,9 +59,11 @@ struct Node * Rinsert(struct Node *root, int data)
 
     if(get_balance_factor(p) == 2 && get_balance_factor(p->lchild) == 1){
         printf("LL-rotation needs to be done at %d\n", p->data);
+        return ll_rotation(p);
     }
     else if(get_balance_factor(p) == 2 && get_balance_factor(p->lchild) == -1){
         printf("LR-rotation needs to be done at %d\n", p->data);
+        return lr_rotation(p);
     }
     else if(get_balance_factor(p) == -2 && get_balance_factor(p->rchild) == -1){
         printf("RR-rotation needs to be done at %d\n", p->data);
@@ -68,6 +71,7 @@ struct Node * Rinsert(struct Node *root, int data)
     }
     else if(get_balance_factor(p) == -2 && get_balance_factor(p->rchild) == 1){
         printf("RL-rotation needs to be done at %d\n", p->data);
+        return rl_rotation(p);
     }
     return p;
 }

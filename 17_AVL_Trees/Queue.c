@@ -30,12 +30,15 @@ void enqueue(struct Node *tree_node)
         p->next = NULL;
     }
     else{
-        while(!p->next){
+        while(p->next){
             p = p->next;
         }
         p->next = (struct Queue_Node*)malloc(sizeof(struct Queue_Node));
         p->next->tree_Node = tree_node;
         p->next->next = NULL;
+    }
+    if(!head){
+        head = p;
     }
 };
 
